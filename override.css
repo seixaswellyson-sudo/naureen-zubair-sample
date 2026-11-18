@@ -1,0 +1,5 @@
+/* per-lead hero treatment: in */
+@media (prefers-reduced-motion: no-preference) {
+  img[fetchpriority="high"] { animation: kb-in 26s ease-in-out infinite alternate; }
+  @keyframes kb-in { from { transform: scale(1); } to { transform: scale(1.1); } }
+}
